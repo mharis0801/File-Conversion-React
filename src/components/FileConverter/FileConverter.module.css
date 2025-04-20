@@ -1,0 +1,55 @@
+.container {
+  padding: 24px;
+}
+
+.title {
+  margin-bottom: 16px !important;
+}
+
+.error {
+  margin-bottom: 16px !important;
+}
+
+.dropzone {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+  border: 3px dashed #1976d2;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dropzone:hover:not(:disabled) {
+  background-color: #e3f2fd;
+  border-color: #1565c0;
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.contentContainer {
+  text-align: center;
+}
+
+.uploadIcon {
+  font-size: 48px !important;
+  color: #1976d2 !important;
+  margin-bottom: 16px !important;
+}
+
+.orText {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.selectButton {
+  margin-top: 16px !important;
+}
